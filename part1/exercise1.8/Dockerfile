@@ -1,0 +1,2 @@
+FROM devopsdockeruh/simple-web-service
+CMD server
