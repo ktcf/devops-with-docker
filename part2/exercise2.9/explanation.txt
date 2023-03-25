@@ -1,0 +1,9 @@
+I've modified backend's and frontend's Dockerfile ENV variable, so
+
+ENV REACT_APP_BACKEND_URL=http://localhost:8080 => ENV REACT_APP_BACKEND_URL=http://localhost:80
+
+and
+
+ENV REQUEST_ORIGIN=http://localhost:5000 => ENV REQUEST_ORIGIN=http://localhost:80
+
+Additionally, I had to rebuild both images.
